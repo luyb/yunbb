@@ -33,18 +33,22 @@ body{
 
 .pg1-rbox{
   margin-left: 40vw;
-  text-align: center;
 }
-.pg1-rbox span{
+.page span{
   display: block;
   width: 100%;
   float: left;
+  text-align: center;
 }
 .pg-title{font-size: 32px;}
-.pg-subtitle{font-size: 18px;}
-.pg1-rbox .pg-title{margin-top: 40vh;}
-.pg1-rbox .pg-btn{margin-top: 2vh;}
-.pg1-rbox .pg-btn a{
+.pg-subtitle{
+  font-size: 18px;
+  color: #666;
+}
+.pg1 .pg-title{margin-top: 40vh;}
+.pg1 .pg-btn{margin-top: 2vh;}
+.pg1 .pg-btn a,
+.pg5 .pg-btn a{
   display: block;
   margin: auto;
   width: 110px;
@@ -55,7 +59,41 @@ body{
   color: #fff;
   font-size: 15px;
 }
-.pg1-rbox .pg-text1{margin-top: 4vh;}
-.pg1-rbox .pg-text2{margin-top: 1vh;}
+.pg1 .pg-text1{margin-top: 4vh;}
+.pg1 .pg-text2{margin-top: 1vh;}
 
 /* page2 */
+.pg2 .pg-title{margin-top: 20vh;}
+.pg2 .pg-subtitle{margin-top: 1vh;}
+
+/* page3 */
+.pg3 .pg-title{margin-top: 40vh;}
+.pg3 .pg-subtitle{margin-top: 1vh;}
+
+/* page4 */
+.pg4 .pg-title{margin-top: 20vh;}
+.pg4 .pg-subtitle{margin-top: 1vh;}
+
+/* page5 */
+.pg5-rbox{margin-left: 40vw;}
+.page .pg5-rbox span
+{
+  text-align: right;
+  padding-right: 12vw;
+}
+.pg5-rbox a{
+  float: right;
+  text-align: center;
+}
+.pg5 .pg-title.title2{
+  margin-top: 1vh;
+  font-size: 20px;
+}
+.pg5 .pg-title{margin-top: 36vh;}
+.pg5 big{
+  line-height: 34px;
+  font-size: 20px;
+  color: rgb(255,126,0);
+  padding-right: 16px;
+}
+.pg5 .pg-btn{margin-top: 4vh;}

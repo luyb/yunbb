@@ -112,7 +112,8 @@ body{
 .pg5 .pg-btn{margin-top: 4vh;}
 
 /* order-page */
-.order-main{
+.order-main,
+.success-main{
   margin-top: 90px;
   max-width: 1080px;
   min-width: 630px;
@@ -230,3 +231,9 @@ body{
   padding-right: 16px;
 }
 
+/* order_success*/
+.success-main .pg-title{
+  display: block;
+  text-align: center;
+  font-size: 32px;
+}

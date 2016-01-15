@@ -64,17 +64,8 @@ body{
 .pg1 .pg-title{margin-top: 40vh;}
 .pg1 .pg-btn{margin-top: 2vh;}
 .pg1 .pg-btn a,
-.pg5 .pg-btn a{
-  display: block;
-  margin: auto;
-  width: 120px;
-  height: 38px;
-  line-height: 38px;
-  background-color: rgb(255,92,54);
-  border-radius: 8px;
-  color: #fff;
-  font-size: 15px;
-}
+.pg5 .pg-btn a{margin: auto;}
+
 .pg-btn a:visited{text-decoration: none;}
 .pg-btn a:hover{
   background-color: rgb(230,81,47);
@@ -198,7 +189,7 @@ body{
 
 .order-main .dtl-member{
   height: 108px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #ccc;
 }
 
 .order-main .member-add{
@@ -227,3 +218,15 @@ body{
   background-image: linear-gradient(rgba(255,255,255,.1),rgba(100,100,100,.1));
   margin-right: 20px;
 }
+.order-main .pg-btn{
+  display: block;
+  text-align: right;
+  padding-right: 10px;
+  margin-top: 5px;
+}
+.order-main .pg-btn span{
+  font-size: 26px;
+  color: rgb(255,85,85);
+  padding-right: 16px;
+}
+

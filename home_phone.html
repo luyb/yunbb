@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>帮小云</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/onepage-scroll.css">
+    <link rel="stylesheet" href="css/common_phone.css">
+    <link rel="stylesheet" href="css/weui.css">
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/npm.js"></script>
+	<script src="js/jquery.onepage-scroll.min.js"></script>
+  </head>
+  <body style class>
+    
+    <nav class="navbar navbar-default custom-navbar if-need-fix">
+      <div class="container-my">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header clearfix">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" data-baidu-track-event="{&quot;type&quot;:&quot;导航栏&quot;,&quot;event&quot;:&quot;帮小云logo&quot;,&quot;label&quot;:&quot;南京&quot;}" href="#">
+            <img class="logo" src="image/logo.png" alt="">
+          </a>
+          <span class="logo-text">帮小云</span>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right custom-navbar-ul">
+            <li>
+                <a class="current_page" href="#" target="_blank">首页</a>
+            </li>
+            <li>
+                <a rel="nofollow" class="" href="#" target="_blank">加入我们</a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-my -->
+    </nav>
+	<div class="main">
+    <section class="page pg1">
+        <span class="pg-title">与他分享科技带来的喜悦</span>
+        <span class="pg-btn"><a class="btn-look" href="javascript:$('.main').moveDown()">了解详情</a></span>
+        <span class="pg-subtitle pg-text1">帮小云是一项专为使用智能手机（暂只支持Smartisan 手机）
+</span>
+        <span class="pg-subtitle pg-text2">有一定困难的群体提供的远程协助服务
+</span>
+    </section>
+    <section class="page pg2">
+      <span class="pg-title">无需一对，只要一部</span>
+      <span class="pg-subtitle">您无需为了让亲人用上「远程协助」而再额外购买一台Smartisan手机</span>
+    </section>
+    <section class="page pg3">
+      <span class="pg-title">「爱」不再“占线”</span>
+      <span class="pg-subtitle">无论何时，随叫随到，我们一直都在她“身边”</span>
+    </section>
+    <section class="page pg4">
+      <span class="pg-title">真挚 · 耐心 · 守候</span>
+      <span class="pg-subtitle"></span>
+    </section>
+    <section class="page pg5">
+      <div class="pg5-rbox">
+        <span class="pg-title">还不到一杯咖啡的价格</span>
+        <span class="pg-title title2">让科技「真正」拉近彼此的距离</span>
+        <span class="pg-btn"><big>最低24.9元/月</big><a class="btn-look" href="order.html">为爱充值</a></span>
+      </div>
+    </section>
+	</div>
+  <script>
+    $(function(){
+      $('.main').onepage_scroll({
+        sectionContainer: '.page',
+        loop: false,
+        animationTime: 1000,
+    		afterMove: function(index){
+    			switch(index){
+    				case 1:
+    					break;
+    				case 2:
+    					break;
+    				case 3:
+    					break;
+    				case 4:
+              
+    					break;
+    			}
+    		}
+      });
+    });
+  </script>
+  </body>
+
+</html>

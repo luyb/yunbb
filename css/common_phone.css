@@ -1,0 +1,239 @@
+@media all{
+  .custom-navbar {
+    z-index: 9;
+    background-color: #F75129;
+    opacity: .9;
+    margin-bottom: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    position: fixed;
+    width: 100vw;
+    background-image: linear-gradient(rgba(255,255,255,.1),rgba(0,0,0,.1));
+    border: 0px;
+    border-radius: 0px;
+  }
+  .custom-navbar a {
+    
+  }
+  .navbar-default .navbar-nav > li > a{
+    color: #fff;
+    font-size: 16px;
+  }
+  .navbar-default .navbar-nav > li > a:hover{color: #fff;}
+  .navbar-default .navbar-nav > li > a:visited{color: #fff;}
+  .container-my {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+  .custom-navbar-ul li {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+body{
+  font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+}
+/* scroll cursor */
+.onepage-pagination{
+  top: 42%;
+}
+
+/* page1 */
+.page.pg1{
+  background: url("../image/home_p1_bg_phone.jpg") no-repeat ;
+  background-size: 100vw;
+}
+
+.page span{
+  display: block;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.pg-title{
+  font-size: 26px;
+  color: #eee;
+}
+.pg-subtitle{
+  font-size: 18px;
+  color: #666;
+}
+.pg1 .pg-title{margin-top: 20vh;}
+.pg1 .pg-btn{margin-top: 2vh;}
+.pg1 .pg-btn a,
+.pg5 .pg-btn a{margin: auto;}
+
+.pg-btn a:visited{text-decoration: none;}
+.pg-btn a:hover{
+  background-color: rgb(230,81,47);
+  text-decoration: none;
+}
+.pg-btn a:active {text-decoration: none;}
+.pg1 .pg-text1{margin-top: 4vh;}
+.pg1 .pg-text2{margin-top: 1vh;}
+
+/* page2 */
+.pg2 .pg-title{margin-top: 15vh;}
+.pg2 .pg-subtitle{margin-top: 1vh;}
+
+/* page3 */
+.pg3 .pg-title{margin-top: 40vh;}
+.pg3 .pg-subtitle{margin-top: 1vh;}
+
+/* page4 */
+.pg4 .pg-title{margin-top: 20vh;}
+.pg4 .pg-subtitle{margin-top: 1vh;}
+
+/* page5 */
+.pg5-rbox{margin-left: 40vw;}
+.page .pg5-rbox span
+{
+  text-align: right;
+  padding-right: 12vw;
+}
+.pg5-rbox a{
+  float: right;
+  text-align: center;
+}
+.pg5 .pg-title.title2{
+  margin-top: 1vh;
+  font-size: 20px;
+}
+.pg5 .pg-title{margin-top: 36vh;}
+.pg5 big{
+  line-height: 38px;
+  font-size: 20px;
+  color: rgb(255,126,0);
+  padding-right: 16px;
+}
+.pg5 .pg-btn{margin-top: 4vh;}
+
+/* order-page */
+.order-main,
+.success-main{
+  margin-top: 90px;
+  max-width: 1080px;
+  min-width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+.order-main .dtl-title{
+  margin-top: 5px;
+  display: block;
+  font-size: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.order-main .dtl-row{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 112px;
+  width: 630px;
+  border-bottom: 1px solid #eee;
+}
+.dtl-row.def{border: 0;}
+
+.order-main .dtl-item{
+  float: left;
+  width: 190px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-image: linear-gradient(rgba(255,255,255,.1),rgba(100,100,100,.1));
+  margin-right: 20px;
+}
+.order-main .dtl-line{
+  display: block;
+  width: 150px;
+}
+.order-main .line-1st{
+  font-size: 18px;
+  color: #666;
+}
+.order-main .line-1st span{
+  font-size: 16px;
+  color: red;
+  margin-left: 8px;
+}
+.order-main .line-2nd,
+.order-main .line-3rd{
+  font-size: 16px;
+  color: #888;
+}
+.order-main .dtl-price{
+  height: 60px;
+  width: 310px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #eee;
+}
+.order-main .dtl-price span{
+  margin-right: 10px;
+  float: left;
+  width: 140px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 20px;
+  color: #888;
+  border: 1px solid #ccc;
+}
+
+.order-main .dtl-member{
+  height: 108px;
+  border-bottom: 1px solid #ccc;
+}
+
+.order-main .member-add{
+  float: right;
+  margin-right: 10px;
+  width: 38px;
+  height: 38px;
+  line-height: 32px;
+  background-color: #fff;
+  border-radius: 20px;
+  color: #888;
+  font-size: 30px;
+  text-align: center;
+}
+.order-main .dtl-member span{
+  float: left;
+  width: 190px;
+  border: 1px solid #ddd;
+  color: #777;
+  border-radius: 12px;
+  margin-top: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-image: linear-gradient(rgba(255,255,255,.1),rgba(100,100,100,.1));
+  margin-right: 20px;
+}
+.order-main .pg-btn{
+  display: block;
+  text-align: right;
+  padding-right: 10px;
+  margin-top: 5px;
+}
+.order-main .pg-btn span{
+  font-size: 26px;
+  color: rgb(255,85,85);
+  padding-right: 16px;
+}
+
+/* order_success*/
+.success-main .pg-title{
+  display: block;
+  text-align: center;
+  font-size: 32px;
+}

@@ -171,7 +171,7 @@ body{
 }
 .order-main .dtl-price{
   height: 60px;
-  width: 310px;
+  width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
   border-top: 1px solid #eee;
@@ -231,7 +231,7 @@ body{
   padding-right: 16px;
 }
 
-/* order-page phone*/
+/* order-page iphone5 */
 @media screen and (max-width: 320px) {
   .navbar{display: none;}
   .order-main,
@@ -239,17 +239,12 @@ body{
     margin-top: 0px;
     max-width: 300px;
     min-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
   
   }
   .order-main .dtl-title{
-    margin-top: 5px;
-    display: block;
     font-size: 20px;
-    border-bottom: 1px solid #ccc;
   }
 
   .order-main .dtl-row{
@@ -257,7 +252,6 @@ body{
     padding-bottom: 6px;
     height: 70px;
     width: 100%;
-    border-bottom: 1px solid #eee;
   }
   .dtl-row.def{
     border: 0;
@@ -272,7 +266,7 @@ body{
     float: left;
     width: 100%;
     border: 1px solid #EEE;
-    border-radius: 8px;
+    border-radius: 4px;
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 12px;
@@ -285,17 +279,13 @@ body{
   }
   .order-main .line-1st{
     font-size: 14px;
-    color: #666;
   }
   .order-main .line-1st span{
     font-size: 12px;
-    color: red;
-    margin-left: 8px;
   }
   .order-main .line-2nd,
   .order-main .line-3rd{
     font-size: 12px;
-    color: #888;
     width: 134px;
     margin-top: 5px;
   }
@@ -303,71 +293,210 @@ body{
     text-align: right;
   }
   .order-main .dtl-price{
-    height: 60px;
-    width: 310px;
     padding-top: 6px;
     padding-bottom: 6px;
-    border-top: 1px solid #eee;
   }
   .order-main .dtl-price span{
-    margin-right: 10px;
-    float: left;
     width: 145px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: center;
     font-size: 14px;
-    color: #888;
-    border: 1px solid #ccc;
-  }
-
-  .order-main .dtl-member{
-    height: 108px;
-    border-bottom: 1px solid #ccc;
   }
 
   .order-main .member-add{
-    float: right;
     margin-right: 0px;
     width: 26px;
     height: 26px;
     line-height: 22px;
-    background-color: #fff;
-    border-radius: 20px;
-    color: #888;
     font-size: 22px;
-    text-align: center;
     font-weight: 200;
   }
-  .order-main .dtl-member span{
-    float: left 
-    width: 190px;
-    border: 1px solid #ddd;
-    color: #777;
-    border-radius: 12px;
-    margin-top: 10px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 12px;
-    padding-right: 12px;
-    background-image: linear-gradient(rgba(255,255,255,.1),rgba(100,100,100,.1));
-    margin-right: 20px;
-  }
+  
   .order-main .pg-btn{
-    display: block;
-    text-align: right;
     padding-right: 0px;
-    margin-top: 5px;
     margin-bottom: 5px;
   }
   .order-main .pg-btn span{
     font-size: 18px;
-    color: rgb(255,85,85);
     padding-right: 20px;
   }
 }
 
+/* order-page iphone6 */
+@media screen and (max-width: 375px) {
+  .navbar{display: none;}
+  .order-main,
+  .success-main{
+    margin-top: 0px;
+    max-width: 375px;
+    min-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+  }
+  .order-main .dtl-title{
+    font-size: 20px;
+  }
 
+  .order-main .dtl-row{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    height: 70px;
+    width: 100%;
+  }
+  .dtl-row.def{
+    border: 0;
+    height: 195px;
+  }
+  
+  .dtl-row.def .dtl-item{
+    margin-bottom: 6px;
+  }
+
+  .order-main .dtl-item{
+    float: left;
+    width: 100%;
+    border: 1px solid #EEE;
+    border-radius: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-image: linear-gradient(rgba(255,255,255,.1),rgba(200,200,200,.1));
+  }
+  .order-main .dtl-line{
+    display: inline-block;
+    width: 300px;
+  }
+  .order-main .line-1st{
+    font-size: 14px;
+  }
+  .order-main .line-1st span{
+    font-size: 12px;
+  }
+  .order-main .line-2nd,
+  .order-main .line-3rd{
+    font-size: 12px;
+    width: 134px;
+    margin-top: 5px;
+  }
+  .order-main .line-3rd{
+    text-align: right;
+  }
+  .order-main .dtl-price{
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  .order-main .dtl-price span{
+    width: 167px;
+    font-size: 14px;
+  }
+
+  .order-main .member-add{
+    margin-right: 0px;
+    width: 26px;
+    height: 26px;
+    line-height: 22px;
+    font-size: 22px;
+    font-weight: 200;
+  }
+  
+  .order-main .pg-btn{
+    padding-right: 0px;
+    margin-bottom: 5px;
+  }
+  .order-main .pg-btn span{
+    font-size: 18px;
+    padding-right: 20px;
+  }
+}
+
+/* order-page iphone6s */
+@media screen and (max-width: 540px) {
+  .navbar{display: none;}
+  .order-main,
+  .success-main{
+    margin-top: 0px;
+    max-width: 510px;
+    min-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+  }
+  .order-main .dtl-title{
+    font-size: 24px;
+  }
+
+  .order-main .dtl-row{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    height: 75px;
+    width: 100%;
+  }
+  .dtl-row.def{
+    border: 0;
+    height: 208px;
+  }
+  
+  .dtl-row.def .dtl-item{
+    margin-bottom: 6px;
+  }
+
+  .order-main .dtl-item{
+    float: left;
+    width: 100%;
+    border: 1px solid #EEE;
+    border-radius: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-image: linear-gradient(rgba(255,255,255,.1),rgba(200,200,200,.1));
+  }
+  .order-main .dtl-line{
+    display: inline-block;
+    width: 300px;
+  }
+  .order-main .line-1st{
+    font-size: 16px;
+  }
+  .order-main .line-1st span{
+    font-size: 14px;
+  }
+  .order-main .line-2nd,
+  .order-main .line-3rd{
+    font-size: 14px;
+    width: 134px;
+    margin-top: 5px;
+  }
+  .order-main .line-3rd{
+    text-align: right;
+  }
+  .order-main .dtl-price{
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  .order-main .dtl-price span{
+    width: 180px;
+    font-size: 16px;
+  }
+
+  .order-main .member-add{
+    margin-right: 0px;
+    width: 30px;
+    height: 30px;
+    line-height: 26px;
+    font-size: 26px;
+    font-weight: 200;
+  }
+  
+  .order-main .pg-btn{
+    padding-right: 0px;
+    margin-bottom: 5px;
+  }
+  .order-main .pg-btn span{
+    font-size: 20px;
+    padding-right: 20px;
+  }
+}
 
 /* order_success*/
 .success-main .pg-title{

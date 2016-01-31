@@ -233,9 +233,10 @@ body{
 
 /* order-page phone*/
 @media screen and (max-width: 320px) {
+  .navbar{display: none;}
   .order-main,
   .success-main{
-    margin-top: 70px;
+    margin-top: 0px;
     max-width: 300px;
     min-width: 100%;
     margin-left: auto;
@@ -270,7 +271,7 @@ body{
   .order-main .dtl-item{
     float: left;
     width: 100%;
-    border: 1px solid #ddd;
+    border: 1px solid #EEE;
     border-radius: 8px;
     padding-top: 6px;
     padding-bottom: 6px;

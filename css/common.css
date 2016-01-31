@@ -386,7 +386,7 @@ body{
     padding-bottom: 6px;
   }
   .order-main .dtl-price span{
-    width: 167px;
+    width: 40%;
     font-size: 14px;
   }
 
@@ -475,7 +475,7 @@ body{
     padding-bottom: 6px;
   }
   .order-main .dtl-price span{
-    width: 180px;
+    width: 40%;
     font-size: 16px;
   }
 

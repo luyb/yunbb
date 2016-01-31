@@ -232,7 +232,7 @@ body{
 }
 
 /* order-page iphone5 */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px){
   .navbar{display: none;}
   .order-main,
   .success-main{
@@ -321,7 +321,7 @@ body{
 }
 
 /* order-page iphone6 */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) and (min-width: 321px) {
   .navbar{display: none;}
   .order-main,
   .success-main{
@@ -410,7 +410,7 @@ body{
 }
 
 /* order-page iphone6s */
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 540px) and (min-width: 376px) {
   .navbar{display: none;}
   .order-main,
   .success-main{
@@ -428,12 +428,12 @@ body{
   .order-main .dtl-row{
     padding-top: 6px;
     padding-bottom: 6px;
-    height: 75px;
+    height: 82px;
     width: 100%;
   }
   .dtl-row.def{
     border: 0;
-    height: 208px;
+    height: 234px;
   }
   
   .dtl-row.def .dtl-item{
@@ -456,15 +456,15 @@ body{
     width: 300px;
   }
   .order-main .line-1st{
-    font-size: 16px;
+    font-size: 20px;
   }
   .order-main .line-1st span{
-    font-size: 14px;
+    font-size: 16px;
   }
   .order-main .line-2nd,
   .order-main .line-3rd{
-    font-size: 14px;
-    width: 134px;
+    font-size: 16px;
+    width: 160px;
     margin-top: 5px;
   }
   .order-main .line-3rd{
@@ -476,15 +476,15 @@ body{
   }
   .order-main .dtl-price span{
     width: 40%;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .order-main .member-add{
     margin-right: 0px;
     width: 30px;
     height: 30px;
-    line-height: 26px;
-    font-size: 26px;
+    line-height: 27px;
+    font-size: 25px;
     font-weight: 200;
   }
   

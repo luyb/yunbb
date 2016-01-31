@@ -277,7 +277,6 @@ body{
     padding-left: 12px;
     padding-right: 12px;
     background-image: linear-gradient(rgba(255,255,255,.1),rgba(100,100,100,.1));
-    margin-right: 20px;
   }
   .order-main .dtl-line{
     display: inline-block;
@@ -296,7 +295,7 @@ body{
   .order-main .line-3rd{
     font-size: 12px;
     color: #888;
-    width: 126px;
+    width: 134px;
     margin-top: 5px;
   }
   .order-main .line-3rd{
@@ -305,14 +304,14 @@ body{
   .order-main .dtl-price{
     height: 60px;
     width: 310px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     border-top: 1px solid #eee;
   }
   .order-main .dtl-price span{
     margin-right: 10px;
     float: left;
-    width: 138px;
+    width: 145px;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
@@ -337,7 +336,7 @@ body{
     color: #888;
     font-size: 22px;
     text-align: center;
-    
+    font-weight: 100;
   }
   .order-main .dtl-member span{
     float: left 

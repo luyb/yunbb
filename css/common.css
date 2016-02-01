@@ -112,8 +112,7 @@ body{
 .pg5 .pg-btn{margin-top: 4vh;}
 
 /* order-page */
-.order-main,
-.success-main{
+.order-main{
   margin-top: 90px;
   max-width: 1080px;
   min-width: 630px;
@@ -231,11 +230,29 @@ body{
   padding-right: 16px;
 }
 
-/* order-page iphone5 */
+/* order_success */
+.success-main .pg-title{
+  display: block;
+  text-align: center;
+  color: #3cc51f;
+}
+.success-main .pg-title{
+  margin-top: 25px;
+  font-size: 26px;
+  font-weight: 300;
+}
+.page_desc{
+  text-align: center;
+  color: #888;
+  font-size: 12px;
+}
+
+/* iphone5 */
 @media screen and (max-width: 320px){
+  
+  /* order-page */
   .navbar{display: none;}
-  .order-main,
-  .success-main{
+  .order-main{
     margin-top: 0px;
     max-width: 300px;
     min-width: 100%;
@@ -318,13 +335,35 @@ body{
     font-size: 18px;
     padding-right: 20px;
   }
+  /* order_success */
+  
+  .success-main{
+    margin-top: 0px;
+    max-width: 320px;
+    min-width: 100％;
+    padding-left: 0px;
+    padding-right: 0px;
+  
+  }
+  .success-main .pg-title{
+    margin-top: 25px;
+    font-size: 26px;
+    font-weight: 300;
+  }
+  .page_desc{
+    text-align: center;
+    color: #888;
+    font-size: 12px;
+  }
+  
 }
 
-/* order-page iphone6 */
+/* iphone6 */
 @media screen and (max-width: 375px) and (min-width: 321px) {
+  
+  /* order-page */
   .navbar{display: none;}
-  .order-main,
-  .success-main{
+  .order-main{
     margin-top: 0px;
     max-width: 375px;
     min-width: 100%;
@@ -409,11 +448,12 @@ body{
   }
 }
 
-/* order-page iphone6s */
+/* iphone6s */
 @media screen and (max-width: 540px) and (min-width: 376px) {
+  
+  /* order-page */
   .navbar{display: none;}
-  .order-main,
-  .success-main{
+  .order-main{
     margin-top: 0px;
     max-width: 510px;
     min-width: 100%;
@@ -498,9 +538,3 @@ body{
   }
 }
 
-/* order_success*/
-.success-main .pg-title{
-  display: block;
-  text-align: center;
-  font-size: 32px;
-}

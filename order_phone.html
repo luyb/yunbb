@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>帮小云 套餐选择</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/weui.css">
+    <link rel="stylesheet" href="css/common.css">
+    <script src="js/jquery-1.12.0.min.js"></script>
+  </head>
+  <body style class>
+	  <div class="success-main">
+      <div class="weui_cells_title">套餐选择</div>
+
+      <div class="weui_cells weui_cells_checkbox">
+                  <label class="weui_cell weui_check_label" for="s11">
+                      <div class="weui_cell_hd">
+                          <input type="checkbox" class="weui_check" name="checkbox1" id="s11" checked="checked">
+                          <i class="weui_icon_checked"></i>
+                      </div>
+                      <div class="weui_cell_bd weui_cell_primary">
+                          <p>standard is dealt for u.</p>
+                      </div>
+                  </label>
+                  <label class="weui_cell weui_check_label" for="s12">
+                      <div class="weui_cell_hd">
+                          <input type="checkbox" name="checkbox1" class="weui_check" id="s12">
+                          <i class="weui_icon_checked"></i>
+                      </div>
+                      <div class="weui_cell_bd weui_cell_primary">
+                          <p>standard is dealicient for u.</p>
+                      </div>
+                  </label>
+              </div>
+              <i class="weui_icon_success"></i>
+	  </div>
+    <i class="weui_icon_success"></i>
+    <i class="weui_icon_msg weui_icon_success"></i>
+  <script>
+    $(function(){
+
+    });
+    function showDialog(){
+      var $dialog = $('#qilaoyezi');
+      $dialog.show();
+      $dialog.find('.weui_btn_dialog').one('click', function () {
+          $dialog.hide();
+      });
+    }
+  </script>
+  </body>
+
+</html>

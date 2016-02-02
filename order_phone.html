@@ -12,29 +12,107 @@
   </head>
   <body style class>
 	  <div class="success-main">
-      <div class="weui_cells_title">套餐选择</div>
-
+      <div class="weui_cells_title">特惠套餐(一个月)</div>
       <div class="weui_cells weui_cells_checkbox">
-                  <label class="weui_cell weui_check_label" for="s11">
-                      <div class="weui_cell_hd">
-                          <input type="checkbox" class="weui_check" name="checkbox1" id="s11" checked="checked">
-                          <i class="weui_icon_checked"></i>
-                      </div>
-                      <div class="weui_cell_bd weui_cell_primary">
-                          <p>standard is dealt for u.</p>
-                      </div>
-                  </label>
-                  <label class="weui_cell weui_check_label" for="s12">
-                      <div class="weui_cell_hd">
-                          <input type="checkbox" name="checkbox1" class="weui_check" id="s12">
-                          <i class="weui_icon_checked"></i>
-                      </div>
-                      <div class="weui_cell_bd weui_cell_primary">
-                          <p>standard is dealicient for u.</p>
-                      </div>
-                  </label>
-              </div>
-              
+        <label class="weui_cell weui_check_label" for="s11">
+          <div class="weui_cell_hd">
+            <input type="checkbox" class="weui_check" name="checkbox1" id="s11" checked="checked">
+            <i class="weui_icon_checked"></i>
+          </div>
+          <div class="weui_cell_bd weui_cell_primary">
+            <p>首月体验 <span class="cell-name-small">(共3次)</span></p>
+          </div>
+          <div class="weui_cell_ft">1元</div>
+        </label>
+      </div>
+      
+      <div class="weui_cells_title">套餐选择</div>
+      <div class="weui_cells weui_cells_radio">
+        <label class="weui_cell weui_check_label" for="x11">
+          <div class="weui_cell_bd weui_cell_primary">
+            <p>低频套餐 <span class="cell-name-small">(每月 3次)</span></p>
+          </div>
+          <div class="weui_cell_ft">
+            <input type="radio" class="weui_check" name="radio1" id="x11">
+            <span class="weui_icon_checked"></span>
+          </div>
+        </label>
+        <label class="weui_cell weui_check_label" for="x12">
+
+          <div class="weui_cell_bd weui_cell_primary">
+            <p>标准套餐 <span class="cell-name-small">(每月 6次)</span></p>
+          </div>
+          <div class="weui_cell_ft">
+            <input type="radio" name="radio1" class="weui_check" id="x12" checked="checked">
+            <span class="weui_icon_checked"></span>
+          </div>
+        </label>
+        <label class="weui_cell weui_check_label" for="x13">
+
+          <div class="weui_cell_bd weui_cell_primary">
+            <p>超级套餐 <span class="cell-name-small">(每月 12次)</span></p>
+          </div>
+          <div class="weui_cell_ft">
+            <input type="radio" name="radio1" class="weui_check" id="x13" checked="checked">
+            <span class="weui_icon_checked"></span>
+          </div>
+        </label>
+      </div>
+      <div class="weui_cells_title">周期选择</div>
+
+      <div class="weui_cells weui_cells_radio">
+        <label class="weui_cell weui_check_label" for="x21">
+          <div class="weui_cell_bd weui_cell_primary">
+            <p>179元 /半年</p>
+          </div>
+          <div class="weui_cell_ft">
+            <input type="radio" class="weui_check" name="radio2" id="x21">
+            <span class="weui_icon_checked"></span>
+          </div>
+        </label>
+        <label class="weui_cell weui_check_label" for="x22">
+
+          <div class="weui_cell_bd weui_cell_primary">
+            <p>299元/全年</p>
+          </div>
+          <div class="weui_cell_ft">
+            <input type="radio" name="radio2" class="weui_check" id="x22" checked="checked">
+            <span class="weui_icon_checked"></span>
+          </div>
+        </label>
+      </div>
+      <div class="weui_cells_title">服务对象 <a href="javascript:;" class="weui_btn weui_btn_mini weui_btn_primary cells-title-right-btn">添加</a></div>
+      <div class="weui_cells weui_cells_checkbox">
+        <label class="weui_cell weui_check_label" for="s21">
+          <div class="weui_cell_hd">
+            <input type="checkbox" class="weui_check" name="checkbox1" id="s21" checked="checked">
+            <i class="weui_icon_checked"></i>
+          </div>
+          <div class="weui_cell_bd weui_cell_primary">
+            <p>齐老爷子</p>
+          </div>
+          <div class="weui_cell_ft">18545244412</div>
+        </label>
+        <label class="weui_cell weui_check_label" for="s22">
+          <div class="weui_cell_hd">
+            <input type="checkbox" class="weui_check" name="checkbox2" id="s22" checked="checked">
+            <i class="weui_icon_checked"></i>
+          </div>
+          <div class="weui_cell_bd weui_cell_primary">
+            <p>杨大姐</p>
+          </div>
+          <div class="weui_cell_ft">18545244412</div>
+        </label>
+      </div>
+      
+      <div class="weui_cells">
+        <div class="weui_cell">
+          <div class="weui_cell_bd weui_cell_primary">
+            <p class="order-price">合计：100元</p>
+          </div>
+          <div class="weui_cell_ft"><a href="javascript:;" class="weui_btn weui_btn_warn">确认并支付</a></div>
+        </div>
+      </div>
 	  </div>
   <script>
     $(function(){

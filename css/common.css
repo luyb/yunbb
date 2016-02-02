@@ -538,3 +538,16 @@ body{
   }
 }
 
+/* order_phone */
+.cell-name-small{
+  font-size: 14px;
+}
+.cells-title-right-btn{
+  float: right;
+  bottom: .3em;
+}
+.order-price{
+  padding-right: 15px;
+  font-size: 20px;
+  color: #EF4F4F;
+}

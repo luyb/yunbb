@@ -42,7 +42,7 @@ body{
 }
 
 /* page1 */
-.page.pg1{
+.home-page.pg1{
   background: url("../image/home_p1_bg.jpg") no-repeat ;
   background-size: 100vw;
 }
@@ -50,7 +50,7 @@ body{
 .pg1-rbox{
   margin-left: 40vw;
 }
-.page span{
+.home-page span{
   display: block;
   width: 100%;
   float: left;
@@ -89,7 +89,7 @@ body{
 
 /* page5 */
 .pg5-rbox{margin-left: 40vw;}
-.page .pg5-rbox span
+.home-page .pg5-rbox span
 {
   text-align: right;
   padding-right: 12vw;
@@ -241,7 +241,7 @@ body{
   font-size: 26px;
   font-weight: 300;
 }
-.page_desc{
+.home-page_desc{
   text-align: center;
   color: #888;
   font-size: 12px;
@@ -350,7 +350,7 @@ body{
     font-size: 26px;
     font-weight: 300;
   }
-  .page_desc{
+  .home-page_desc{
     text-align: center;
     color: #888;
     font-size: 12px;
@@ -548,6 +548,9 @@ body{
 }
 .order-price{
   padding-right: 15px;
-  font-size: 20px;
+  font-size: 18px;
   color: #EF4F4F;
+}
+.pay-btn{
+  font-size: 16px;
 }

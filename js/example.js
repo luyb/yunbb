@@ -246,10 +246,10 @@ $(function () {
         template: '#tpl_msg',
         events: {}
     };
-    var article = {
-        name: 'article',
-        url: '#article',
-        template: '#tpl_article',
+    var memberAdd = {
+        name: 'member_add',
+        url: '#member_add',
+        template: '#member_add',
         events: {}
     };
     var actionSheet = {
@@ -297,7 +297,7 @@ $(function () {
         .push(dialog)
         .push(progress)
         .push(msg)
-        .push(article)
+        .push(memberAdd)
         .push(actionSheet)
         .push(orderSuccess)
         .default('home')

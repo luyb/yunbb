@@ -87,7 +87,7 @@
           </div>
         </label>
       </div>
-      <div class="weui_cells_title">服务对象 <a href="javascript:;" class="weui_btn weui_btn_mini weui_btn_primary cells-title-right-btn">添加</a></div>
+      <div class="weui_cells_title">服务对象 <a href="javascript:;" class="weui_btn weui_btn_mini weui_btn_primary cells-title-right-btn js_grid" data-id="member_add">添加</a></div>
       <div class="weui_cells weui_cells_checkbox">
         <label class="weui_cell weui_check_label" for="s21">
           <div class="weui_cell_hd">
@@ -121,7 +121,7 @@
       </div>
 	  </div>
     </script>
-        <script type="text/html" id="order_success">
+    <script type="text/html" id="order_success">
     <div class="page">
       <div class="success-main">
         <span class="pg-title">办理完成</span>
@@ -148,10 +148,47 @@
                 </div>
             </div>
         </div>
-        <div class="weui_cells_title"></div>
-        
+        <div class="weui_cells_title"></div><!--空行-->
         <p class="page_desc">操作步骤</p>
         <img src="image/login_pic.png" style="width: 80%;margin-left: 10%;">
+      </div>
+    </div>
+    </script>
+    <script type="text/html" id="member_add">
+    <div class="page">
+
+      <div class="weui_cells">
+        <div class="weui_cell weui_cell_select weui_select_before">
+            <div class="weui_cell_hd">
+                <select class="weui_select" name="select2">
+                    <option value="1">+86</option>
+                    <option value="2">+80</option>
+                    <option value="3">+84</option>
+                    <option value="4">+87</option>
+                </select>
+            </div>
+            <div class="weui_cell_bd weui_cell_primary">
+                <input class="weui_input" type="number" pattern="[0-9]*" placeholder="请输入号码">
+            </div>
+        </div>
+      </div>
+      <div class="weui_cells weui_cells_form">
+        <div class="weui_cell">
+            <div class="weui_cell_hd"><label class="weui_label">姓名</label></div>
+            <div class="weui_cell_bd weui_cell_primary">
+                <input class="weui_input" type="text" placeholder="">
+            </div>
+        </div>
+        <div class="weui_cell">
+            <div class="weui_cell_hd"><label class="weui_label">称呼</label></div>
+            <div class="weui_cell_bd weui_cell_primary">
+                <input class="weui_input" type="text" placeholder="">
+            </div>
+        </div>
+      </div>
+      <div class="weui_cells_tips">您希望我们(25岁左右)怎么称呼他/她</div>
+      <div class="weui_btn_area">
+        <a class="weui_btn weui_btn_primary" href="#" >确定</a>
       </div>
     </div>
     </script>

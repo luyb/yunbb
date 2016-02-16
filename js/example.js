@@ -252,6 +252,12 @@ $(function () {
         template: '#member_add',
         events: {}
     };
+    var signInUp = {
+        name: 'sign_in_up',
+        url: '#sign_in_up',
+        template: '#sign_in_up',
+        events: {}
+    };
     var actionSheet = {
         name: 'actionsheet',
         url: '#actionsheet',
@@ -297,6 +303,7 @@ $(function () {
         .push(dialog)
         .push(progress)
         .push(msg)
+        .push(signInUp)
         .push(memberAdd)
         .push(actionSheet)
         .push(orderSuccess)

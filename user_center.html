@@ -19,7 +19,7 @@
     <script type="text/html" id="order_phone_select">
   	  <div class="page">
         <div class="button_sp_area sign-in-up">
-          <a href="javascript:;" class="weui_btn weui_btn_plain_primary">登录／注册</a>
+          <a href="javascript:;" class="weui_btn weui_btn_plain_primary js_grid" data-id="sign_in_up">登录／注册</a>
         </div>
         <div class="weui_cells weui_cells_access">
             <a class="weui_cell" href="javascript:;">
@@ -98,39 +98,50 @@
     <div class="page">
       <div class="weui_cells">
         <div class="weui_cell weui_cell_select weui_select_before">
-            <div class="weui_cell_hd">
-                <select class="weui_select" name="select2">
-                    <option value="1">+86</option>
-                    <option value="2">+80</option>
-                    <option value="3">+84</option>
-                    <option value="4">+87</option>
-                </select>
-            </div>
-            <div class="weui_cell_bd weui_cell_primary">
-                <input class="weui_input" type="number" pattern="[0-9]*" placeholder="接受服务的手机号码">
-            </div>
+          <div class="weui_cell_hd">
+            <select class="weui_select" name="select2">
+              <option value="1">+86</option>
+              <option value="2">+80</option>
+              <option value="3">+84</option>
+              <option value="4">+87</option>
+            </select>
+          </div>
+          <div class="weui_cell_bd weui_cell_primary">
+            <input class="weui_input" type="number" pattern="[0-9]*" placeholder="注册手机号码">
+          </div>
+        </div>
+      </div>
+      
+      <div class="weui_cells weui_cells_form">
+        <div class="weui_cell weui_vcode">
+          <div class="weui_cell_hd"><label class="weui_label">验证码</label></div>
+          <div class="weui_cell_bd weui_cell_primary">
+            <input class="weui_input" type="number" placeholder="">
+          </div>
+          <div class="weui_cell_ft">
+            <span class="code-get">获取</span>
+          </div>
         </div>
       </div>
       <div class="weui_cells weui_cells_form">
         <div class="weui_cell">
-            <div class="weui_cell_hd"><label class="weui_label">姓名</label></div>
-            <div class="weui_cell_bd weui_cell_primary">
-                <input class="weui_input" type="text" placeholder="">
-            </div>
-        </div>
-        <div class="weui_cell">
-            <div class="weui_cell_hd"><label class="weui_label">称呼</label></div>
+            <div class="weui_cell_hd"><label class="weui_label">昵称</label></div>
             <div class="weui_cell_bd weui_cell_primary">
                 <input class="weui_input" type="text" placeholder="">
             </div>
         </div>
       </div>
-      <div class="weui_cells_tips">您希望我们(25岁)怎么称呼她/他。这很重要!</div>
+      <div class="weui_cells_tips">主要用于我们联系您时的称呼。</div>
       <div class="weui_btn_area">
         <a class="weui_btn weui_btn_primary" href="#" >确定</a>
       </div>
     </div>
-    </script>
+  </script>
+  <script type="text/html" id="member_account">
+    <div class="page">
+      
+    </div>
+  </script>
   <script>
     $(function(){
 

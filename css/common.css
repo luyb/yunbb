@@ -563,3 +563,13 @@ body{
   margin-right: 30%;
   margin-bottom: 5vh;
 }
+.code-get{
+  display: block;
+  height: 44px;
+  line-height: 44px;
+  width: 90px;
+  font-size: 16px;
+  color: #fff;
+  background-color: rgb(127, 234, 144);
+  text-align: center;
+}

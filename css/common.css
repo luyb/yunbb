@@ -573,3 +573,12 @@ body{
   background-color: rgb(127, 234, 144);
   text-align: center;
 }
+.member_hd{
+  padding-top: 1em;
+  text-align: center;
+}
+.member_name{
+  font-size: 26px;
+  color: #3cc51f;
+  font-weight: 400;
+}

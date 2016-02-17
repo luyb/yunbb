@@ -258,6 +258,18 @@ $(function () {
         template: '#sign_in_up',
         events: {}
     };
+    var orderHistory = {
+        name: 'order_history',
+        url: '#order_history',
+        template: '#order_history',
+        events: {}
+    };
+    var memberAccount = {
+        name: 'member_account',
+        url: '#member_account',
+        template: '#member_account',
+        events: {}
+    };
     var actionSheet = {
         name: 'actionsheet',
         url: '#actionsheet',
@@ -304,7 +316,9 @@ $(function () {
         .push(progress)
         .push(msg)
         .push(signInUp)
+        .push(orderHistory)
         .push(memberAdd)
+        .push(memberAccount)
         .push(actionSheet)
         .push(orderSuccess)
         .default('home')

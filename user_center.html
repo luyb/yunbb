@@ -22,7 +22,7 @@
           <a href="javascript:;" class="weui_btn weui_btn_plain_primary js_grid" data-id="sign_in_up">登录／注册</a>
         </div>
         <div class="weui_cells weui_cells_access">
-            <a class="weui_cell" href="javascript:;">
+            <a class="weui_cell js_grid" data-id="order_history" href="javascript:;" >
                 <div class="weui_cell_bd weui_cell_primary">
                     <p>办理记录</p>
                 </div>
@@ -32,7 +32,7 @@
         </div>
         <div class="weui_cells_title">成员列表</div>
         <div class="weui_cells weui_cells_access">
-            <a class="weui_cell" href="javascript:;">
+            <a class="weui_cell js_grid" data-id="member_account" href="javascript:;" >
                 <div class="weui_cell_bd weui_cell_primary">
                     <p>齐老爷子</p>
                 </div>
@@ -139,7 +139,64 @@
   </script>
   <script type="text/html" id="member_account">
     <div class="page">
-      
+      <div class="member_hd">
+        <span class="member_name">齐老爷子</span>
+      </div>
+      <div class="weui_cells_title">账户余额</div>
+      <div class="weui_cells">
+                  <div class="weui_cell">
+                      <div class="weui_cell_hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
+                      <div class="weui_cell_bd weui_cell_primary">
+                          <p>本月剩余</p>
+                      </div>
+                      <div class="weui_cell_ft">2次</div>
+                  </div>
+                  <div class="weui_cell">
+                      <div class="weui_cell_hd"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="width:20px;margin-right:5px;display:block"></div>
+                      <div class="weui_cell_bd weui_cell_primary">
+                          <p>剩余月数</p>
+                      </div>
+                      <div class="weui_cell_ft">10月</div>
+                  </div>
+              </div>
+              <div class="weui_cells_title">服务记录</div>
+              <div class="weui_cells weui_cells_access">
+                          <a class="weui_cell" href="javascript:;">
+                              <div class="weui_cell_bd weui_cell_primary">
+                                  <p>2.01 教玩游戏</p>
+                              </div>
+                              <div class="weui_cell_ft">
+                              </div>
+                          </a>
+                          <a class="weui_cell" href="javascript:;">
+                              <div class="weui_cell_bd weui_cell_primary">
+                                  <p>2.01 教关静音</p>
+                              </div>
+                              <div class="weui_cell_ft">
+                              </div>
+                          </a>
+                      </div>
+    </div>
+  </script>
+  <script type="text/html" id="order_history">
+    <div class="page">
+      <article class="weui_article">
+        <section>
+          <h2 class="title">办理历史</h2>
+          <section>
+            <h3>2016.02.13 14:39:20</h3>
+            <p>齐老爷子 “1元套餐”<br>
+              齐老爷子 “常规套餐” 半年
+            </p>
+          </section>
+          <section>
+            <h3>2016.02.13 14:39:20</h3>
+            <p>刘阿姨 “1元套餐”<br>
+              刘阿姨 “低频套餐” 一年
+            </p>
+          </section>
+        </section>
+      </article>
     </div>
   </script>
   <script>
